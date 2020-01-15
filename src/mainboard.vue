@@ -252,6 +252,7 @@ export default {
       this.$refs.modal.hide();
     },
     getItems() {
+      //주석추가
       this.$http({
         // get(조회) post(등록), delete(삭제)도 동일
         method: "get",
